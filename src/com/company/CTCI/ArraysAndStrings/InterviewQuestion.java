@@ -11,12 +11,12 @@ Given a string, return a de-duplicated string.
 Example: chicago -> chiago
 
  */
-        public static  void main(String[] args) {
+    public static  void main(String[] args) {
             String input = "chicago";
             System.out.println(removeDuplicates(input));
-        }
+    }
 
-        public static String removeDuplicates(String input) {
+    public static String removeDuplicates(String input) {
 
             String str = "";
             int n = 0;
@@ -35,7 +35,7 @@ Example: chicago -> chiago
                     map.put(c,1);
                 }
             }
-
+        
 
             for(int i =0; i< input.length(); i++){
                 c = input.charAt(i);
@@ -47,7 +47,7 @@ Example: chicago -> chiago
 
             return str;
 
-        }
+    }
 
     private static String printStars(Integer n) {
         String str = "";

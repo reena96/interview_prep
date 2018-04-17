@@ -2,6 +2,7 @@ package com.company.CTCI.DataStructuresImp.Stack.StackUsingLinkedList;
 
 
 import java.util.EmptyStackException;
+//http://btechsmartclass.com/DS/U2_T3.html
 
 public class Stack {
 
@@ -41,7 +42,7 @@ public class Stack {
         return top == null;
     }
 
-    public int size(){
+    public int size() {
         return count;
     }
 
